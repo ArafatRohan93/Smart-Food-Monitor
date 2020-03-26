@@ -1,10 +1,7 @@
 # Smart-Food-Monitor
 It is an hardware project for Monitoring the environment where foods are being stored.
-
 It monitors the Temperature , Humidity , Light Exposure and Odour presence in the environment and displays it in an LCD monitor.
-
 It gives notification by making sound and glowing an "Warning" LED.
-
 
 # Components Used
 * Arduino UNO
@@ -17,6 +14,13 @@ It gives notification by making sound and glowing an "Warning" LED.
 
 # Circuit Diagram
 ![](https://github.com/ArafatRohan93/Smart-Food-Monitor/blob/master/foodCircuitio.png)
+
+# Arduino Code
+**First make it sure you know about the sensors and Arduino.**
+
+DHT11 library is [here](https://github.com/ArafatRohan93/Smart-Food-Monitor/tree/master/libraries).
+
+[Click Here](https://github.com/ArafatRohan93/Smart-Food-Monitor/blob/master/food.ino) for the code!
 
 
 # Project Photos
