@@ -42,3 +42,5 @@ DHT11 library is [here](https://github.com/ArafatRohan93/Smart-Food-Monitor/tree
  
 For Arduino, standard library for DHT-11 sensor is already available. The data from the sensor can be easily ready by calling read11() method of the DHT class.  The LDR sensor is connected in a potential divider circuit and inputs a voltage at the analog input pin of the controller. The voltage is read and digitized using in-built ADC channel.  The MQ3 sensor detects the emission of ethanol type of gases. If the food/fruits get spoiled, they emit the ethanol type of gases. The MQ3 sensor detects the concentration of such gases and output an analog voltage proportional to the concentration of the gas. The analog output is passed to the analog pin of the Arduino which has inbuilt ADC that coverts the analog to digital value. The Arduino collects data from all the sensors and convert the values to the strings. The sensor data wrapped as proper strings are passed to the character LCD for display.      
  
+ # Reference
+ [ENGINEERSGARAGE](https://www.engineersgarage.com/contributions/arduino-based-smart-iot-food-quality-monitoring-system/)
